@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "FriendFinder is a dating app, written to fulfull a homework assignment during my Penn LPS coding bootcamp.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HillNathan/FriendFinder.git"
+  },
+  "author": "Nathan Hill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HillNathan/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/HillNathan/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
