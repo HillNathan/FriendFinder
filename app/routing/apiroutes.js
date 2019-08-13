@@ -1,5 +1,3 @@
-
-
 module.exports = function(app, data) {
 
     app.get('/api/friends', (req,res) => {

@@ -3,5 +3,24 @@
 }
 
 .modal {
+    /* Special styling for the alert box */
+    color: black;
+    background-color: whitesmoke;
+    position:fixed;
+    top: 35%;
+    left: 35%;
+    height: 500px;
+    width: 500px;
+    border: 2px solid navy;
+    text-align: center;
+    box-shadow: 5px 10px 8px #888888;
     display:none;
+}
+
+#clear-alert {
+    margin: auto;
+}
+
+#match-image {
+    padding: 3px;
 }
