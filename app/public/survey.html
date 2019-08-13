@@ -10,6 +10,12 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
           crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
 </head>
 <body>
@@ -26,11 +32,20 @@
 
     <div class="row">
         <div class="col">
-        <p class="h5">The survey is very simple. Just rate each of these Marvel Heroes below from 1-5, based on how much 
-            you like each character. Friendfinder will go through our database and find soneone whose taste in 
-            heroes best matches your own.</p>
-            <br><hr><br>
-            <form action="/api/friends" method="post" target="modal">
+            <!-- <form action="/api/friends" method="post" target="modal"> -->
+            <form>
+                <div class="form-group text-center">
+                    <label for="survey-name">Your Name</label>
+                    <input type="text" class="form-control" id="survey-name">
+                    <Br>
+                    <label for="survey-img">Add a link to your image</label>
+                    <input type="text" class="form-control" id="survey-img">
+                </div>
+                <br><hr><br>
+                <p class="h5">The survey is very simple. Just rate each of these Marvel Heroes below from 1-5, based on how much 
+                        you like each character. Friendfinder will go through our database and find soneone whose taste in 
+                        heroes best matches your own.</p><br>
+            
                 <div class="form-group text-center">
                     <img src="https://www.geek.com/wp-content/uploads/2019/04/iron-man-endgame-625x352.png" alt="Iron Man">
                     <h3>Ironman</h3>
@@ -282,14 +297,14 @@
                 </div>
                 <br><hr><br>
                 <div class="form-group text-center">
-                    <button type="submit" class="btn btn-primary mb-2">Submit your Survey</button>
+                    <button id="submit-survey" type="submit" class="btn btn-primary mb-2">Submit your Survey</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
 
-<iframe name="modal" class="hide"></iframe>
-    
+<div class="modal"></div>
+
 </body>
 </html>

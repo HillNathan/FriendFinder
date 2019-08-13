@@ -1,10 +1,12 @@
 const express = require('express')
+const path = require('path')
 
 const app = express()
 let data = require('./app/data/friends.js')
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static(path.join(__dirname,'public')))
 
 require('./app/routing/apiroutes.js')(app, data);
 require('./app/routing/htmlRoutes.js')(app, data);
