@@ -1,7 +1,7 @@
 exports.json = friendData = [
     {
         "name":"Ahmed",
-        "photo":"http://placezombie.com/400x400",
+        "photo":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
         "scores":[
             5,
             1,
@@ -17,7 +17,7 @@ exports.json = friendData = [
       },
       {
         "name":"Tony",
-        "photo":"http://placezombie.com/400x400",
+        "photo":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
         "scores":[
             3,
             2,
@@ -33,7 +33,7 @@ exports.json = friendData = [
       },
       {
         "name":"Angela",
-        "photo":"http://placezombie.com/400x400",
+        "photo":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
         "scores":[
             4,
             3,
@@ -49,7 +49,7 @@ exports.json = friendData = [
       },
       {
         "name":"Cynthia",
-        "photo":"http://placezombie.com/400x400",
+        "photo":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
         "scores":[
             2,
             1,
