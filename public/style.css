@@ -17,6 +17,25 @@
     display:none;
 }
 
+.alert {
+    color: black;
+    background-color: whitesmoke;
+    position:fixed;
+    top: 35%;
+    left: 35%;
+    height: 200px;
+    width: 300px;
+    border: 2px solid navy;
+    text-align: center;
+    box-shadow: 5px 10px 8px #888888;
+    display:none;
+
+}
+
+#clear-modal {
+    margin: auto;
+}
+
 #clear-alert {
     margin: auto;
 }
